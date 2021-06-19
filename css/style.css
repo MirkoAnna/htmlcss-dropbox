@@ -10,7 +10,13 @@ body {
 
 /* Common */
 .debug {
-    
+    /* background-color:burlywood; */
+    /* border: 1px solid black; */
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
 }
 
 .clearfix {
@@ -19,3 +25,51 @@ body {
     clear: both;
 }
 /* Fine common */
+
+/* Menù */
+.menù {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+}
+
+.menù li {
+    display: inline;
+    padding: 0% 2%;
+    line-height: 50px;
+}
+
+.menù ul li img {
+    width: 10%;
+    vertical-align: middle;
+    
+}
+
+.menù ul li a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 80%;
+    color: black;
+    
+}
+
+.menù-left {
+    width: 50%;
+    float: left;
+    padding-left: 1%;
+}
+
+.menù-right {
+    width: 50%;
+    float: right;
+    padding-right: 1%;
+    text-align: right;
+}
+
+.menù-right ul li:last-child span {
+    background-color: rgb(34, 104, 255);
+    color: white;
+    padding: 0.5% 2%;
+}
+
+/* Fine menù */
