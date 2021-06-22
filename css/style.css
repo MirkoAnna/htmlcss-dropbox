@@ -143,7 +143,7 @@ body {
 }
 
 .subscription h1{
-    font-size: 120%;
+    font-size: 200%;
     padding-bottom: 4%;
 }
 
@@ -295,3 +295,58 @@ body {
     padding: 1.5%;
 }
 /* Fine contatta team */
+
+/* Operazioni Dropbox Business */
+.dropbox-operations-container {
+    margin: auto;
+    width: 70%;
+    margin-top: 5%;
+}
+
+.dropbox-operations-container h1 {
+    font-size: 200%;
+}
+
+.operation {
+    /* padding-top: 4%; */
+    /* display: inline-block; */
+    width: 33.3%;
+    float: left;
+    /* height: 500px; */
+    padding: 2.5%;
+}
+
+.operation img {
+    width: 100%;
+}
+
+.operation p {
+    padding-top: 8%;
+    padding-bottom: 7%;
+}
+
+.padding-operation {
+    /* padding-right: 10%; */
+}
+
+
+/* .operation-img2 {
+    width: 33%;
+} */
+
+/* .operation-img3 {
+    width: 33%;
+} */
+
+/* .operation-img4 {
+    width: 33%;
+} */
+
+/* .operation-img5 {
+    width: 33%;
+} */
+
+/* .operation-img6 {
+    width: 33%;
+} */
+/* Fine operazioni Dropbox Business */
