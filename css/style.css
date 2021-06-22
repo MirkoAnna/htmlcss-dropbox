@@ -154,8 +154,8 @@ body {
 
 /* Colonne */
 .column-container {
-    padding-top: 5%;
     width: 100%;
+    padding-top: 5%;
 }
 
 .column .column-left {
@@ -267,3 +267,31 @@ body {
 }
 /* Fine colonna in basso */
 /* Fine abbonamento */
+
+/* Contatta team */
+.contact-team {
+    margin: auto;
+    width: 70%;
+}
+
+.contact-team img {
+    padding-top: 10%;
+    width: 50%;
+}
+
+.contact-team-text {
+    float: right;
+    width: 40%;
+    padding-top: 10%;
+}
+
+.contact-team-text p {
+    padding: 7% 0;
+}
+
+.contact-team-text span {
+    margin-top: 4%;
+    border: 1.5px solid black;
+    padding: 1.5%;
+}
+/* Fine contatta team */
