@@ -269,6 +269,7 @@ body {
 /* Fine abbonamento */
 
 /* Contatta team */
+
 .contact-team {
     margin: auto;
     width: 70%;
@@ -308,11 +309,8 @@ body {
 }
 
 .operation {
-    /* padding-top: 4%; */
-    /* display: inline-block; */
-    width: 33.3%;
+    width: 33%;
     float: left;
-    /* height: 500px; */
     padding: 2.5%;
 }
 
@@ -324,29 +322,141 @@ body {
     padding-top: 8%;
     padding-bottom: 7%;
 }
+/* Fine operazioni Dropbox Business */
 
-.padding-operation {
-    /* padding-right: 10%; */
+/* Clienti Dropbox Business */
+.dropbox-customers {
+    margin-top: 7%;
 }
 
+.customers-title {
+    margin: auto;
+    width: 70%;
+}
 
-/* .operation-img2 {
-    width: 33%;
-} */
+.customers-title h1 {
+    font-size: 200%;
+    padding-bottom: 2%;
+}
 
-/* .operation-img3 {
-    width: 33%;
-} */
+.customers-title a {
+    color: rgb(34, 104, 255);
+    font-size: 76%;
+    font-weight: 600;
+    padding-bottom: 10%;
+}
 
-/* .operation-img4 {
-    width: 33%;
-} */
+.col-customers {
+    margin-top: 3%;
+    width: 100%;
+}
 
-/* .operation-img5 {
-    width: 33%;
-} */
+.col-customers-left {
+    float: left;
+    width: 30vw;
+    height: 30vw;
+}
 
-/* .operation-img6 {
-    width: 33%;
-} */
-/* Fine operazioni Dropbox Business */
+.col-customers-center {
+    float: left;
+    width: calc(100% - 60vw);
+    height: 30vw;
+    background-color: rgb(238, 238, 238);
+    padding: 3%;
+    font-size: 76%;
+    font-weight: 600;
+}
+
+.col-customers-right {
+    float: left;
+    width: 30vw;
+    height: 30vw;
+}
+
+.box-img {
+    float: left;
+    width: 15vw;
+    height: 15vw;
+    line-height: 15vw;
+    text-align: center;
+}
+
+.col-customers img { 
+    width: 60%;
+    vertical-align: middle;
+    filter: invert(1);
+}
+
+.col-customers-left .designit {
+    background-color: rgba(70, 170, 87, 0.521);
+    border: 5px solid rgba(219, 245, 219, 0.836);
+}
+
+.col-customers-left .asu {
+    background-color: rgb(110, 7, 47);
+}
+
+.col-customers-left .uf {
+    background-color: rgb(41, 146, 211);
+}
+
+.col-customers-left .topps {
+    background-color: red;
+}
+
+.box-center {
+    height: 80px;
+    filter: invert(1);
+}
+
+.col-customers-center .box-center img {
+    width: 30%;
+    margin-bottom: 8%;
+}
+
+.border {
+    width: 10%;
+    border-bottom: 1.5px solid rgb(41, 41, 41);
+}
+
+.col-customers-center p {
+    margin: 9% 0;
+}
+
+.col-customers-right .wbr {
+    background-color: darkred;
+}
+
+.col-customers-right .hp {
+    background-color: lightsteelblue;
+}
+
+.col-customers-right .lp {
+    background-color: darkblue;
+}
+
+.col-customers-right .cco {
+    background-color: rgb(255, 221, 30);
+}
+
+.col-customers-bottom {
+    width: 100vw;
+    height: 60vw;
+    background-color: lightsteelblue;
+}
+
+.col-customers-bottom h1 {
+    color: rgb(110, 7, 47);
+    font-size: 200%;
+    float: left;
+    width: 35%;
+}
+
+.col-customers-bottom span {
+    float: right;
+    background-color: white;
+    padding: 0.5% 2%;
+    font-size: 76%;
+}
+
+/* Fine clienti Dropbox Business */
